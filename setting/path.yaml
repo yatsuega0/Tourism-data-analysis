@@ -1,0 +1,22 @@
+# data
+# input
+# 【2024年4-6月期】〔A1全国調査〕個票データ.csv
+survey_data_path_2024_q2: '../data/input/【2024年4-6月期】〔A1全国調査〕個票データ.csv'
+# 【2024年7-9月期】〔A1全国調査〕個票データ.csv
+survey_data_path_2024_q3: '../data/input/【2024年7-9月期】〔A1全国調査〕個票データ.csv'
+# inter
+survey_data_2024_processed: '../data/inter/2024年Q2andQ3_全国調査個票データ_processed.xlsx'
+expenditure_amount_processed: '../data/inter/2024年Q2andQ3_個票データ（支出金額）_processed.xlsx'
+
+# references
+# 変数名リストのパス
+column_mapping: '../references/survey_column_list.xlsx'
+# 国籍・地域リスト
+nationality_region_mapping: '../references/nationality_region_list.xlsx'
+# 居住地・地域リスト
+country_code_mapping: '../references/country_code_list.xlsx'
+# 都道府県リスト
+prefectures_visited_list: '../references/prefectures_visited_list.xlsx'
+# 支払金額リスト
+pay_amount_list: '../references/paymnt_amount_list.xlsx'
+
